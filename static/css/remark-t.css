@@ -1,0 +1,177 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: "microsoft yahei";
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+html {
+  font-size: 26.67vw; }
+
+body {
+  background: #fff; }
+
+header, section, footer, figure, aside {
+  display: block; }
+
+i, em {
+  font-style: normal; }
+
+#app {
+  height: 100%; }
+
+#app1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%; }
+
+/*--------------header-----------*/
+header {
+  width: 100%;
+  height: .44rem;
+  position: relative; }
+  header ul {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+    header ul li {
+      font-size: .16rem;
+      width: 33%;
+      text-align: center;
+      line-height: .44rem; }
+    header ul li:nth-of-type(1) {
+      text-align: left;
+      font-size: .2rem;
+      font-weight: bolder; }
+    header ul li:nth-of-type(3) {
+      text-align: end;
+      font-size: .14rem; }
+    header ul li:nth-of-type(1), header ul li:nth-of-type(3) {
+      color: #FF9D00; }
+
+header::after {
+  content: '';
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleY(-0.5); }
+
+/*--------------section-----------*/
+section {
+  width: 100%;
+  height: 100%; }
+  section #starBox {
+    width: 60%;
+    height: .44rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+    section #starBox i {
+      color: #FF9D00;
+      font-size: .25rem;
+      line-height: .5rem; }
+  section p {
+    font-size: .1rem;
+    text-align: center;
+    color: #ccc; }
+  section #heartBox {
+    width: 100%;
+    height: 1rem; }
+    section #heartBox ul {
+      width: 100%;
+      height: 100%;
+      font-size: .12rem;
+      position: relative; }
+      section #heartBox ul li {
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: .1rem; }
+        section #heartBox ul li span {
+          color: #ccc; }
+        section #heartBox ul li .heartItems {
+          width: 50%;
+          height: 100%;
+          display: flex;
+          justify-content: space-around;
+          color: #f63737; }
+    section #heartBox ul::after {
+      content: '';
+      width: 100%;
+      border-bottom: 1px solid #ccc;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transform: scaleY(-0.5); }
+  section #remarkBox {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: column; }
+    section #remarkBox textarea {
+      width: 100%;
+      height: 60%;
+      border: none;
+      text-indent: .2rem;
+      font-size: .12rem;
+      line-height: .2rem;
+      overflow: auto; }
+    section #remarkBox ul {
+      width: 90%;
+      height: 8%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      position: relative; }
+      section #remarkBox ul li {
+        width: 50%;
+        height: 100%;
+        font-size: .1rem;
+        color: #ccc;
+        text-align: center;
+        line-height: .24rem; }
+        section #remarkBox ul li span {
+          color: #f63737;
+          font-weight: bolder; }
+      section #remarkBox ul li:nth-of-type(1) {
+        background: #ddd; }
+        section #remarkBox ul li:nth-of-type(1) a {
+          display: inline-block;
+          width: 100%;
+          height: 100%;
+          color: #000;
+          line-height: .24rem; }
+    section #remarkBox ul::after {
+      content: '';
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transform: scaleY(-0.5);
+      border-bottom: 1px solid #ccc; }
+    section #remarkBox .picFile {
+      width: 90%;
+      margin: 0 auto; }
+      section #remarkBox .picFile span {
+        display: block;
+        width: .5rem;
+        height: .5rem;
+        border: 1px solid #ccc;
+        color: #ccc;
+        font-size: .4rem;
+        transform: translateY(0.2rem); }
+      section #remarkBox .picFile .icon-jiahao:before {
+        margin-left: .035rem; }
+
+/*# sourceMappingURL=remark-t.css.map */

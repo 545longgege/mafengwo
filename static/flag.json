@@ -1,0 +1,82 @@
+[{
+	"title":"日本",
+	"img":"../../../static/img/flag1.jpeg",
+	"price":"￥59"
+
+},
+{
+	"title":"马来西亚",
+	"img":"../../../static/img/flag2.jpeg",
+	"price":"￥109"
+
+},{
+	"title":"新加坡",
+	"img":"../../../static/img/flag3.jpeg",
+	"price":"￥154"
+
+
+},{
+	"title":"菲律宾",
+	"img":"../../../static/img/flag4.jpeg",
+	"price":"￥196"
+
+},{
+	"title":"台湾",
+	"img":"../../../static/img/flag5.jpeg",
+	"price":"￥49"
+
+},{
+	"title":"美国",
+	"img":"../../../static/img/flag6.jpeg",
+	"price":"￥196"
+
+},{
+	"title":"澳大利亚",
+	"img":"../../../static/img/flag7.jpeg",
+	"price":"￥196"
+
+},{
+	"title":"英国",
+	"img":"../../../static/img/flag8.jpeg",
+	"price":"￥828"
+
+},{
+	"title":"越南",
+	"img":"../../../static/img/flag9.jpeg",
+	"price":"￥58"
+
+},{
+	"title":"加拿大",
+	"img":"../../../static/img/flag10.jpeg",
+	"price":"￥699"
+
+},{
+	"title":"俄罗斯",
+	"img":"../../../static/img/flag11.jpeg",
+	"price":"￥670"
+
+},{
+	"title":"柬埔寨",
+	"img":"../../../static/img/flag12.jpeg",
+	"price":"￥215"
+
+},{
+	"title":"新西兰",
+	"img":"../../../static/img/flag13.gif",
+	"price":"￥895"
+
+},{
+	"title":"意大利",
+	"img":"../../../static/img/flag14.jpeg",
+	"price":"￥196"
+
+},{
+	"title":"法国",
+	"img":"../../../static/img/flag15.jpeg",
+	"price":"￥196"
+
+}
+
+
+
+]

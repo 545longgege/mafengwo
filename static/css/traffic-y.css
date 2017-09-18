@@ -1,0 +1,113 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, dl, dt, input, p, dd {
+  margin: 0;
+  padding: 0; }
+
+li, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  display: block;
+  border: none; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.wrapper {
+  margin: 0 auto; }
+
+.clear:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+body {
+  font-family: "微软雅黑"; }
+
+b, strong, em, i {
+  font-style: normal; }
+
+input {
+  outline: none; }
+
+html, body {
+  font-size: 26.67vw;
+  height: 100%;
+  width: 100%; }
+
+.trafficMain {
+  margin-top: 0.44rem;
+  font-size: 0.16rem;
+  overflow: auto; }
+
+.trafficMain ul {
+  position: relative; }
+
+.trafficMain ul li {
+  float: left; }
+
+.trafficMain ul li a {
+  display: inline-block;
+  padding: 0 0.05rem;
+  font-size: 0.18rem;
+  height: 0.3rem;
+  line-height: 0.3rem; }
+
+.trafficMain ul .pos {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #ff9d00;
+  height: 0.02rem;
+  width: 39.27px; }
+
+.trafficMain .tag {
+  padding: 0.05rem 0.1rem; }
+  .trafficMain .tag span {
+    color: #333;
+    font-size: 0.14rem;
+    background: rgba(204, 204, 204, 0.3);
+    padding: 0.02rem 0.05rem;
+    margin-right: 0.05rem; }
+
+.trafficMain .content .item {
+  padding: 0.15rem;
+  border-bottom: 0.01rem solid gainsboro; }
+  .trafficMain .content .item img {
+    width: 0.8rem;
+    height: 0.8rem; }
+  .trafficMain .content .item .desc {
+    margin-left: 0.1rem;
+    width: 2.5rem; }
+    .trafficMain .content .item .desc .vipTitle {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+  .trafficMain .content .item .word {
+    font-size: 0.12rem;
+    color: gray;
+    line-height: 0.2rem;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: 0.1rem; }
+  .trafficMain .content .item .order {
+    display: inline-block;
+    font-size: 0.12rem;
+    color: limegreen;
+    border: 0.01rem solid limegreen;
+    padding-left: 0.01rem;
+    padding-right: 0.01rem; }
+
+/*# sourceMappingURL=traffic-y.css.map */

@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, dl, dt, input, p, dd {
+  margin: 0;
+  padding: 0; }
+
+li, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  display: block;
+  border: none; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.wrapper {
+  margin: 0 auto; }
+
+.clear:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+body {
+  font-family: "微软雅黑" }
+
+b, strong, em, i {
+  font-style: normal; }
+
+input {
+  outline: none; }
+
+html, body {
+  font-size: 26.67vw;
+  height: 100%;
+  width: 100%; }
+
+/*# sourceMappingURL=ticket.css.map */

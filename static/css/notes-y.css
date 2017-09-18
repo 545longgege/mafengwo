@@ -1,0 +1,151 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, dl, dt, input, p, dd {
+  margin: 0;
+  padding: 0; }
+
+li, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  display: block;
+  border: none; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.wrapper {
+  margin: 0 auto; }
+
+.clear:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+body {
+  font-family: "微软雅黑"; }
+
+b, strong, em, i {
+  font-style: normal; }
+
+input {
+  outline: none; }
+
+html, body {
+  font-size: 26.67vw;
+  height: 100%;
+  width: 100%; }
+
+.topTitle h2 {
+  font-size: 0.29rem;
+  padding: 0.1rem; }
+.topTitle .info {
+  padding: 0.1rem;
+  font-size: 0.16rem; }
+  .topTitle .info img {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    display: inline-block;
+    float: left; }
+  .topTitle .info .name {
+    display: inline-block;
+    padding: 0.05rem 0.2rem 0.1rem 0.2rem;
+    border-right: 0.01rem solid gainsboro;
+    font-size: 0.14rem;
+    color: gray; }
+  .topTitle .info .go {
+    border: 0.01rem solid gainsboro;
+    padding: 0.15rem;
+    position: relative;
+    margin-top: 0.2rem; }
+    .topTitle .info .go span {
+      display: inline-block;
+      font-size: 0.14rem;
+      margin-right: 0.1rem;
+      margin-bottom: 0.1rem; }
+    .topTitle .info .go .pos {
+      position: absolute;
+      left: 0.2rem;
+      top: -0.1rem;
+      color: gray;
+      font-size: 0.14rem;
+      background: white;
+      padding: 0 0.1rem; }
+
+.content {
+  padding: 0.1rem;
+  font-size: 0.16rem; }
+  .content img {
+    width: 3.5rem;
+    height: 2.3rem;
+    border-radius: 0.1rem; }
+  .content p {
+    line-height: 0.3rem; }
+
+.directory {
+  color: white;
+  background: #FF9D00;
+  padding: 0.1rem;
+  position: fixed;
+  left: 0rem;
+  bottom: 1rem;
+  display: inline-block;
+  font-size: 0.16rem;
+  border-radius: 0 0.2rem 0.2rem 0rem;
+  width: 2rem;
+  box-shadow: 0 0 0.1rem gainsboro; }
+  .directory span {
+    display: inline-block;
+    margin-right: 0.1rem; }
+
+header .toCenter {
+  position: relative;
+  padding: 0.2rem;
+  width: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  color: #008489;
+  font-size: 0.2rem; }
+  header .toCenter .date {
+    display: inline-block;
+    font-size: 0.6rem; }
+    header .toCenter .date:before {
+      content: "";
+      width: 0.05rem;
+      height: 0.7rem;
+      position: absolute;
+      left: 0.1rem;
+      top: 0.22rem;
+      background-color: #008489; }
+    header .toCenter .date:after {
+      content: '';
+      width: 0.05rem;
+      height: 0.7rem;
+      background: #008489;
+      position: absolute;
+      left: 1.1rem;
+      top: 0.22rem; }
+  header .toCenter .year {
+    display: inline-block;
+    font-size: 0.26rem;
+    width: 1rem;
+    margin-left: 0.1rem; }
+    header .toCenter .year:after {
+      content: '';
+      width: 0.05rem;
+      height: 0.7rem;
+      background: #008489;
+      position: absolute;
+      left: 2.1rem;
+      top: 0.22rem; }
+
+/*# sourceMappingURL=notes-y.css.map */

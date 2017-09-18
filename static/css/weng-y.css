@@ -1,0 +1,152 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, dl, dt, input, p, dd {
+  margin: 0;
+  padding: 0; }
+
+li, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  display: block;
+  border: none; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.wrapper {
+  margin: 0 auto; }
+
+.clear:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+body {
+  font-family: "微软雅黑"; }
+
+b, strong, em, i {
+  font-style: normal; }
+
+input {
+  outline: none; }
+
+html, body {
+  font-size: 26.67vw;
+  height: 100%;
+  width: 100%; }
+
+.wengHeader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  font-size: 0.24rem;
+  width: 100%;
+  height: 0.44rem;
+  display: flex;
+  background: white; }
+  .wengHeader .return {
+    width: 0.3rem;
+    margin-left: 0.1rem;
+    margin-top: 0.05rem; }
+    .wengHeader .return a {
+      font-size: 0.3rem;
+      color: #ff9d00; }
+  .wengHeader .ext {
+    width: 0.3rem;
+    margin-right: 0.1rem;
+    margin-top: 0.05rem; }
+    .wengHeader .ext a {
+      font-size: 0.3rem;
+      color: #ff9d00; }
+  .wengHeader .word {
+    flex: 1;
+    text-align: center; }
+
+.wengMain {
+  margin-top: 0.44rem;
+  font-size: 0.18rem; }
+  .wengMain .nav {
+    padding: 0.1rem;
+    color: white;
+    background: #F5F5F5; }
+    .wengMain .nav .each {
+      width: 1rem;
+      position: relative; }
+      .wengMain .nav .each img {
+        width: 1rem;
+        height: 1rem; }
+      .wengMain .nav .each p {
+        position: absolute;
+        bottom: 0rem;
+        left: 0;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.3);
+        width: 100%; }
+  .wengMain .option li a {
+    display: inline-block;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    padding: 0rem 0.11rem; }
+  .wengMain .flexContent {
+    column-count: 2;
+    column-gap: 0.1rem; }
+    .wengMain .flexContent .one {
+      font-size: 0.14rem;
+      width: 172px;
+      margin-left: 0.1rem;
+      margin-bottom: 0.2rem;
+      position: relative;
+      background: white;
+      height: auto; }
+      .wengMain .flexContent .one img {
+        width: 100%;
+        height: auto; }
+      .wengMain .flexContent .one .address {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rosybrown;
+        color: white;
+        width: 100%;
+        text-align: center;
+        height: 0.3rem;
+        line-height: 0.3rem; }
+      .wengMain .flexContent .one .dec {
+        position: relative;
+        bottom: 0rem;
+        left: 0; }
+        .wengMain .flexContent .one .dec .topic {
+          text-indent: 0.2rem;
+          color: #ff9d00;
+          height: 0.3rem;
+          line-height: 0.3rem; }
+          .wengMain .flexContent .one .dec .topic:after {
+            content: '';
+            position: absolute;
+            border-bottom: 0.001rem solid gray;
+            bottom: 0.22rem;
+            left: 0;
+            width: 100%;
+            transform: scaleY(0.5); }
+        .wengMain .flexContent .one .dec img {
+          float: left;
+          display: inline-block;
+          width: 0.3rem;
+          height: 0.3rem;
+          border-radius: 50%; }
+
+.active {
+  color: #ff9d00;
+  border-bottom: 0.03rem solid #ff9d00; }
+
+/*# sourceMappingURL=weng-y.css.map */

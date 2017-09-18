@@ -1,0 +1,233 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: "microsoft yahei";
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+html {
+  font-size: 26.67vw; }
+
+body {
+  background: #f2f2f2; }
+
+header, section, footer, figure, aside {
+  display: block; }
+
+i, em {
+  font-style: normal; }
+
+#app {
+  height: 100%; }
+
+#app1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%; }
+
+/*--------------header-----------*/
+header {
+  width: 100%;
+  height: .44rem;
+  background: #fff; }
+  header #headerContent {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto; }
+    header #headerContent a {
+      font-size: .2rem;
+      color: #FF9D00;
+      flex: 1;
+      line-height: .44rem; }
+    header #headerContent ul {
+      width: 30%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between; }
+      header #headerContent ul li {
+        width: 33%;
+        height: 100%;
+        display: flex;
+        font-size: .2rem;
+        color: #FF9D00;
+        text-align: center;
+        line-height: .44rem;
+        text-indent: .1rem;
+        transform: translateY(0.06rem); }
+
+/*--------------section-----------*/
+section {
+  width: 100%;
+  height: 100%; }
+  section #bannerBox {
+    width: 100%;
+    height: 3rem;
+    background: #fff;
+    font-size: .16rem;
+    margin-bottom: .1rem; }
+    section #bannerBox .banner-Top {
+      width: 100%;
+      height: 80%;
+      background: url(/static/img/strategy-banner.jpeg) no-repeat;
+      background-size: 100% 100%; }
+      section #bannerBox .banner-Top h2 {
+        color: #fff;
+        transform: translateY(1.85rem);
+        text-indent: .2rem;
+        font-weight: 100; }
+        section #bannerBox .banner-Top h2 span {
+          font-size: .1rem;
+          padding-left: 2.2rem; }
+    section #bannerBox .banner-bot {
+      display: flex;
+      width: 81%;
+      height: 10%;
+      margin: 0 auto;
+      transform: translateY(0.15rem); }
+      section #bannerBox .banner-bot p strong {
+        color: #FF9D00; }
+      section #bannerBox .banner-bot span {
+        font-size: .2rem;
+        font-weight: bolder;
+        color: #666; }
+  section #restaurantStrategy {
+    width: 100%;
+    height: 4rem;
+    background: #fff;
+    margin-bottom: .1rem; }
+    section #restaurantStrategy .restaurantStrategycontent {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column; }
+      section #restaurantStrategy .restaurantStrategycontent strong {
+        font-size: .16rem;
+        border-left: 4px solid #f39918;
+        color: #111;
+        text-indent: .1rem;
+        font-weight: 100;
+        margin: .2rem 0; }
+      section #restaurantStrategy .restaurantStrategycontent .hideTxt {
+        font-size: .15rem;
+        color: #111;
+        width: 100%;
+        height: 25%;
+        overflow: hidden; }
+        section #restaurantStrategy .restaurantStrategycontent .hideTxt p {
+          text-align: justify; }
+      section #restaurantStrategy .restaurantStrategycontent h2 {
+        font-size: .3rem;
+        text-align: center; }
+      section #restaurantStrategy .restaurantStrategycontent .ticketItems {
+        font-size: .16rem; }
+        section #restaurantStrategy .restaurantStrategycontent .ticketItems li {
+          width: 100%;
+          height: .5rem;
+          font-size: .15rem;
+          font-weight: 100;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          -o-text-overflow: ellipsis;
+          overflow: hidden;
+          line-height: .5rem;
+          position: relative; }
+          section #restaurantStrategy .restaurantStrategycontent .ticketItems li span {
+            color: #FF9D00;
+            padding-right: .1rem; }
+        section #restaurantStrategy .restaurantStrategycontent .ticketItems li::after {
+          content: '';
+          width: 100%;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          border-bottom: 1px solid #ccc;
+          transform: scaleY(-0.5); }
+  section #userRemark {
+    width: 100%;
+    height: 100%;
+    margin-bottom: .1rem;
+    background: #fff; }
+    section #userRemark .userRemarkContent {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column; }
+      section #userRemark .userRemarkContent strong {
+        font-size: .16rem;
+        border-left: 4px solid #f39918;
+        color: #111;
+        text-indent: .1rem;
+        font-weight: 100;
+        margin: .2rem 0; }
+        section #userRemark .userRemarkContent strong span {
+          font-weight: bold; }
+  section #nextFoods {
+    width: 100%;
+    height: 2rem;
+    background: #fff;
+    margin-bottom: .1rem; }
+    section #nextFoods .foodsTitle {
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin: 0 auto; }
+      section #nextFoods .foodsTitle strong {
+        font-size: .16rem;
+        border-left: 4px solid #f39918;
+        color: #111;
+        text-indent: .1rem;
+        font-weight: 100;
+        margin: .2rem 0; }
+      section #nextFoods .foodsTitle a {
+        font-size: .1rem;
+        color: #999;
+        margin-top: .25rem; }
+        section #nextFoods .foodsTitle a i {
+          display: inline-block;
+          width: .15rem;
+          height: .15rem;
+          background: #FF9D00;
+          color: #fff;
+          text-align: center;
+          line-height: .13rem;
+          border-radius: 50%;
+          font-size: .14rem;
+          font-weight: bolder;
+          margin-left: .1rem; }
+    section #nextFoods .foodsBox {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between; }
+
+/*--------------footer-----------*/
+#strategyFooter {
+  width: 100%;
+  height: .44rem;
+  background: #fff; }
+  #strategyFooter #footerBox {
+    width: 22%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex; }
+    #strategyFooter #footerBox li {
+      font-size: .16rem;
+      color: #FF9D00;
+      line-height: .44rem; }
+    #strategyFooter #footerBox li:nth-of-type(1) {
+      transform: translateY(0.05rem);
+      font-size: .2rem;
+      font-weight: bolder;
+      margin-right: .1rem; }
+    #strategyFooter #footerBox li:nth-of-type(2) {
+      color: #111; }
+
+/*# sourceMappingURL=strategy-t.css.map */
